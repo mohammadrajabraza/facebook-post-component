@@ -50,6 +50,20 @@ function Post ({postDetails : {createdBy, avatar, description, images, createdAt
                     <a href="#">2 Comments</a>
                 </div>
             </div>
+            <div className="post-comments">
+                <div className="post-comments-buttons-wrapper">
+                    <div role="button" tabIndex="0">
+                        <i className="btn-like-icon"></i>Like
+                    </div>
+                    <div role="button" tabIndex="0">
+                        <i className="btn-comment-icon"></i>Comment
+                    </div>
+                    <div role="button" tabIndex="0">
+                        <i className="btn-share-icon"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+            </div>
         </div>       
     )
 }

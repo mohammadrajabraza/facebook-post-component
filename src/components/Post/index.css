@@ -1,4 +1,6 @@
-.avatar, .author, .post-reactions div {
+.avatar,
+.author,
+.post-reactions div {
     cursor: pointer;
 }
 
@@ -10,7 +12,8 @@
     box-shadow: 0px 0px 10px rgb(161, 161, 161);
 }
 
-.post a, .post a:hover {
+.post a,
+.post a:hover {
     color: #65676B;
 }
 
@@ -27,13 +30,13 @@
     margin-left: 20px;
 }
 
-.avatar > img {
+.avatar>img {
     height: 55px;
     width: 55px;
     border-radius: 50%;
 }
 
-.avatar > img:hover {
+.avatar>img:hover {
     opacity: 0.9;
 }
 
@@ -52,12 +55,13 @@
     font-weight: 600;
 }
 
-.author a, .author a:hover {
+.author a,
+.author a:hover {
     color: #000;
 }
 
 .time {
-    font-family: Helvetica, Arial, sans-serif;    
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: #65676B;
@@ -79,9 +83,9 @@
 }
 
 .post-engagements {
- padding: 0 20px;   
- display: flex;
- justify-content: space-between;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .post-engagements a {
@@ -95,7 +99,9 @@
     justify-content: flex-start;
 }
 
-.like-reaction , .love-reaction, .wow-reaction {
+.like-reaction,
+.love-reaction,
+.wow-reaction {
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -110,7 +116,7 @@
     width: 23px;
     border-radius: 50%;
 
-} 
+}
 
 .post-reactions img:hover {
     opacity: 0.7;
@@ -133,3 +139,47 @@
 .post-reactions a {
     margin-left: 10px;
 }
+
+.post-comments {
+    padding: 1px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color:#65676B;
+}
+
+.post-comments-buttons-wrapper {
+    height: 50px;
+    border-top: 1px solid #b6b8bd;
+    border-bottom: 1px solid #b6b8bd;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn-like-icon, .btn-love-icon, .btn-share-icon {
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 4px;
+    color:#65676B;
+}
+
+.btn-like-icon {
+    background-image: url(../../assets/images/like.png);
+    background-position: 0px -244px;
+    background-size: 26px 908px;
+}
+
+.btn-like-icon {
+    background-image: url(../../assets/images/comment.png);
+    background-position: 0px -1206px;
+    background-size: 34px 1238px;
+}
+
+.btn-share-icon {
+    background-image: url(../../assets/images/share.png);
+    background-position: 0px -264px;
+    background-size: 26px 908px;
+}
+
