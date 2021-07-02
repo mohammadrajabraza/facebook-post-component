@@ -1,4 +1,5 @@
 import './App.css';
+import Post from './components/Post';
 
 function App() {
 
@@ -18,6 +19,9 @@ function App() {
 
   return (
     <div className="App">
+      <div className="main-container">
+        <Post postDetails={data}/>
+      </div>
     </div>
   );
 }
