@@ -1,6 +1,8 @@
 import './index.css'
+import FBImageGRID from 'react-fb-image-grid'
 
 function Post ({postDetails : {createdBy, avatar, description, images, createdAt}}) {
+
     return (
         <div className="post">
             <div className="post-header">
@@ -14,6 +16,8 @@ function Post ({postDetails : {createdBy, avatar, description, images, createdAt
             </div>
             <div className="post-content">
                 <div className="description">{description}</div>
+                {images.length > 0 && <FBImageGRID images={images}/>}
+
             </div>
         </div>       
     )

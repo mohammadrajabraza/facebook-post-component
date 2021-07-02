@@ -12,7 +12,8 @@ function App() {
               'https://picsum.photos/id/319/780/650',
               'https://picsum.photos/id/322/635/450',
               'https://picsum.photos/id/328/1050/800',
-              'https://picsum.photos/id/336/850/400'
+              'https://picsum.photos/id/336/850/400',
+              'https://picsum.photos/id/318/850/400'
             ],
     createdAt: Date.now()
   }
