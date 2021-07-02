@@ -17,7 +17,6 @@ function App() {
             ],
     createdAt: Date.now()
   }
-
   return (
     <div className="App">
       <div className="main-container">
